@@ -184,8 +184,10 @@ section {
     font-weight: 600;
 }
 
-.section__text__p1 {
+.section__text__p1,
+.title {
     text-align: center;
+    margin: 0;
 }
 
 .section__text__p2 {
@@ -264,89 +266,55 @@ section {
 
 #about {
     position: relative;
-    padding: 2rem;
-    text-align: center;
-}
-
-.about-containers {
-    /* gap: 2rem; */
-    /* margin-bottom: 2rem; */
-    /* margin-top: 2rem; */
-    display: flex;
-    flex-direction: column;
+  }
+  
+  .about-containers {
     gap: 2rem;
-}
-
-.about-details-container {
-    /* justify-content: center; */
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .about-details-container {
+    justify-content: center;
     flex-direction: column;
-    gap: 2rem;
-    flex: 2;
+  }
+  
+  .about-containers,
+  .about-details-container {
     display: flex;
-}
-
-.about-containers, .about-details-container {
-    display: flex;
-}
-
-.about-pic {
+  }
+  
+  .about-pic {
     border-radius: 2rem;
-    width: 100%;
-    max-width: 400px;
-}
-
-.arrow {
+  }
+  
+  .arrow {
     position: absolute;
     right: -5rem;
     bottom: 2.5rem;
-}
-
-.details-container {
+  }
+  
+  .details-container {
     padding: 1.5rem;
     flex: 1;
     background: white;
     border-radius: 2rem;
-    border: rgb(163, 163, 163) 0.1rem solid;
-    /* border-color: rgb(163, 163, 163); */
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
     text-align: center;
-}
-
-.section-container {
-    gap: 2rem;
-    /* height: 80%; */
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    margin-top: 2rem;
-}
-
-.section__pic-container {
-    /* height: 400px; */
-    /* width: 400px; */
-    /* margin: auto 0; */
-    flex: 1;
-    display: flex;
-    justify-content: center;
-}
-
-.text-container {
-    text-align: justify;
-}
-
-.section__text__p1,
-.title {
-    margin: 0;
-}
-
-.section__text__p1 {
-    font-size: 1.25rem;
-    color: rgb(85, 85, 85);
-}
-
-.title {
-    font-size: 3rem;
-    color: black;
-}
+  }
+  
+  .section-container {
+    gap: 4rem;
+    height: 80%;
+  }
+  
+  .section__pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+  }
+  
 
 /* EXPERIENCE SECTION */
 
