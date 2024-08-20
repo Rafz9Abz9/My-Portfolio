@@ -54,6 +54,7 @@
     .about-containers {
         margin-top: 0;
     }
+
     /* Projects Section */
     .projects-container {
         grid-template-columns: repeat(2, 1fr);
